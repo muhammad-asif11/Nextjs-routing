@@ -15,8 +15,12 @@ h2 {
   font-size: 20px;
   font-weight: 600;
 }
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.InterceptStyle {
+  padding: 100px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  display: grid;
+  place-items: center;
+  gap: 5px;
 }

@@ -10,9 +10,9 @@ export const metadata = {
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="InterceptStyle">
       <h2>About me</h2>
-      <Link href="/">Go Back to Home</Link>
+      <Link href="/" className="bg-black rounded-lg text-white p-2">Go Back to Home</Link>
     </div>
   );
 };
